@@ -1,7 +1,11 @@
-byte_size = 1234567890  # объем информации в байтах
+byte_size: int = 1234567890
 
-kilo_size = ...  # здесь Ваш код
-mega_size = ...  # здесь Ваш код
-giga_size = ...  # здесь Ваш код
+kilo_size = ...
+mega_size = ...
+giga_size = ...
 
-print(...)  # допишите код
+print(byte_size)
+print(kilo_size)
+print(mega_size)
+print(giga_size)
+

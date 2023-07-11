@@ -1,9 +1,9 @@
-oklad = 50000  # рублей
-tax_rate = 0.13  # 13% в десятичном виде
+oklad: int = 50000
+tax_rate: float = 0.13
 
-tax = ...  # здесь Ваш код
-salary = ...  # здесь Ваш код
+tax: float = oklad * tax_rate
+salary: float = oklad - tax
 
-print(...)  # допишите код
-print(...)  # допишите код
-print(...)  # допишите код
+print("Размер з/п:",oklad,"рублей")
+print("Налог:",tax,"рублей")
+print("Сумма на руки:",salary,"рублей")
